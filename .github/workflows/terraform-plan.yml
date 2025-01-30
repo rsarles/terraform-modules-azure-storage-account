@@ -7,7 +7,6 @@ jobs:
   call-reusable-workflow:
     uses: rsarles/terraform-cicd-pipeline/.github/workflows/terraform-plan.yml@main
     with: 
-      terraform_version: '1.10'
       repo_name: ${{ github.repository }}
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
