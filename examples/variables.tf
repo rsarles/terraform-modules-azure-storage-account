@@ -90,8 +90,3 @@ variable "subscription_id" {
   type        = string
   description = "The subscription ID for the Azure account."
 }
-
-variable "resource_group" {
-  type        = string
-  description = "The name of the resource group in which to create the storage account."
-}
