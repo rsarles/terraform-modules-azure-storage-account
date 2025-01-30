@@ -1,0 +1,5 @@
+name = "example-storage-account"
+location = "eastus2"
+account_tier = "Standard"
+account_replication_type = "LRS"
+account_kind = "StorageV2"
