@@ -12,7 +12,6 @@ jobs:
     uses: rsarles/terraform-cicd-pipeline/.github/workflows/terraform-plan.yml@main
     with: 
       terraform_version: '1.10'
-    inputs:
       repositories:
         - rsarles/terraform-modules-azure-storage-account
         - rsarles/terraform-modules-azure-resource-group
