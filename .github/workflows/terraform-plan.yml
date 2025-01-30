@@ -14,4 +14,3 @@ jobs:
       terraform_version: '1.10'
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
