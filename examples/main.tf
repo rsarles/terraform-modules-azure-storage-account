@@ -1,5 +1,5 @@
 module "resource_group" {
-  source          = "git::https://oauth2:${GITHUB_TOKEN}@github.com/rsarles/terraform-modules-azure-resource-group.git"
+  source = "git::https://github.com/rsarles/terraform-modules-azure-resource-group.git"
   name            = var.rg_name
   location        = var.location
   subscription_id = var.subscription_id
@@ -7,7 +7,7 @@ module "resource_group" {
 }
 
 module "storage_account" {
-  source = "git::https://oauth2:${GITHUB_TOKEN}@github.com/rsarles/terraform-modules-azure-storage-account.git"
+  source = "git::https://github.com/rsarles/terraform-modules-azure-storage-account.git"
 
   name                     = var.name
   location                 = var.location
