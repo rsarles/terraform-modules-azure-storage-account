@@ -28,6 +28,11 @@ variable "description" {
   }
 }
 
+variable "subscription_id" {
+  type        = string
+  description = "The Azure Subscription ID in which the Resource Group should exist."
+}
+
 # azurerm_storage_account variables
 variable "name" {
   description = "Specifies the name of the storage account. Changing this forces a new resource to be created. This must be unique across the entire Azure service, not just within the resource group."
