@@ -1,6 +1,5 @@
 module "resource_group" {
-  source = "git::https://github.com/rsarles/terraform-modules-azure-resource-group.git"
-
+  source          = "git::https://github.com/rsarles/terraform-modules-azure-resource-group.git"
   name            = var.rg_name
   location        = var.location
   subscription_id = var.subscription_id
