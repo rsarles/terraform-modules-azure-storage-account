@@ -10,3 +10,4 @@ jobs:
       terraform_version: '1.10'
     secrets:
       AZURE_CREDENTIALS: ${{ secrets.AZURE_CREDENTIALS }}
+      CICD_PAT: ${{ secrets.CICD_PAT }}
