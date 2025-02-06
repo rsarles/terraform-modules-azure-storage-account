@@ -1,4 +1,4 @@
-name                     = "example-storage-account"
+name                     = "examplestorageaccount"
 location                 = "eastus2"
 account_tier             = "Standard"
 account_replication_type = "LRS"
