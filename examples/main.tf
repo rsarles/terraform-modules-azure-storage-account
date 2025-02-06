@@ -11,7 +11,7 @@ module "storage_account" {
 
   name                     = var.name
   location                 = var.location
-  resource_group           = var.resource_group
+  resource_group_name           = module.resource_group.name
   account_tier             = var.account_tier
   account_replication_type = var.account_replication_type
   account_kind             = var.account_kind
